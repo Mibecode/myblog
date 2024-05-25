@@ -12,7 +12,7 @@ const siteConfig = {
 // 저자는 파일에서 숫자로 사용해야 함
 const users = [
   {
-    id: 1, // default author
+    id: 0, // default author
     username: "Mibe",
     company: "None",
     position: "CEO",
