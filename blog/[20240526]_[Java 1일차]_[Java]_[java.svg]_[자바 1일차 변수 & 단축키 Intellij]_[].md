@@ -49,3 +49,31 @@ public class Main {
 ```
 
 > 자바의 변수
+```java
+public class Var7 {
+    public static void main(String[] args) {
+        int a = 100; //정수
+        double b = 10.5; //실수
+        boolean c = true; // true / false
+        char d = 'A'; // 문자 하나
+        String e = "Hello Java"; // 문자열
+        byte b = 127; // -127 ~ 128
+        short s = 32767; // -32, 768 ~ 32,767
+        int i = 2147483647; // -2,147,483,648 ~ 2,147,483,647
+
+        // -9,223,372,036,854,775,808 ~ 9,223,972,036,854,775,807
+        long l = 9223372036854775807L;
+
+        // 실수
+        float f = 10.0f;
+        double d = 10.0;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+    }
+}
+```
+이처럼 자바에는 ~~쓸데없이~~ 많은 변수 형식이 잇다.
