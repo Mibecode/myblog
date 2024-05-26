@@ -49,6 +49,8 @@ public class Main {
 ```
 
 > 자바의 변수
+자바에는 꽤 많은 변수가 있다.
+
 ```java
 public class Var7 {
     public static void main(String[] args) {
